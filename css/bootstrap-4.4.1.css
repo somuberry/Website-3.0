@@ -5598,6 +5598,11 @@ img {
 
 
 @media (max-width: 630px) {
+
+  a:hover {
+    text-decoration: none;
+  }
+
   .row {
     margin-top: 3rem;
     padding-right: 2rem;
