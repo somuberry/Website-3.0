@@ -5608,8 +5608,13 @@ img {
     flex-direction: row;
   }
 
+  .name-title {
+    width: 100%;
+  }
+
    .display-4 {
      text-align: center;
+     justify-content: center;
      padding-bottom: 1rem;
      padding-right: 0;
      font-size: 2rem;
@@ -5634,9 +5639,8 @@ img {
      margin-top:0.5rem;
    }
 
-   .display-4-right {
-     text-align: right;
-     padding-right: 1rem;
+   .special-line {
+     display: none;
    }
 
   .navbar {
