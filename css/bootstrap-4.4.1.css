@@ -5762,8 +5762,9 @@ img {
   padding: 0;
   width: 90%;
   max-width: 1200px;
-  max-height: 100%;
+  max-height: 700px;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /* The Close Button */
@@ -5810,6 +5811,12 @@ img {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
