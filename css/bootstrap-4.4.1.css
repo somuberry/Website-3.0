@@ -5605,8 +5605,8 @@ img {
 
   .row {
     margin-top: 3rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 0;
+    padding-left: 0;
     padding-bottom: 2rem;
     border-radius: 0;
     display: flex;
@@ -5683,7 +5683,7 @@ img {
 
   .banner {
     width: 100%;
-    padding:7px;
+    padding-bottom:7px;
   }
 
   .banner-box:hover > .img-desc-title {
