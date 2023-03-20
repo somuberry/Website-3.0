@@ -5681,6 +5681,19 @@ img {
     padding:7px;
   }
 
+  .banner-box:hover > .img-desc-title {
+    visibility: hidden;
+  }
+
+  .banner-box:hover > .img-desc {
+    visibility: hidden;
+  }
+
+  .banner-box:hover > .banner {
+    opacity: 100%;
+  }
+
+
   .header-box {
     display: flex;
     padding-bottom: 0rem;
