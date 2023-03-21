@@ -5596,8 +5596,21 @@ img {
   top: 1rem;
 }
 
+.index {
+  background-image:url(website-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 @media (max-width: 630px) {
+
+  .index {
+    background-image:url(website-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
 
   a:hover {
     text-decoration: none;
