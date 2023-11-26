@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
      <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +17,10 @@
  <title>Saumya Oberoi</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" id="themeStylesheet">
   </head>
   <body class="index">
+
     <div class="row bottom-xs bottom-md">
       <div class="col-xs-12 col-md-3 col-lg-2 name-title">
         <div class="box"><h1 class="display-4"><a href="index.html" style="text-decoration:none">Saumya<br>Oberoi</a></h1></div>
@@ -37,6 +39,7 @@
         <p class="lead"><a href="Saumya Oberoi_Portfolio.pdf" target="_blank"> PDF Portfolio </a></p>
       </div>
       </div>
+
     </div>
 
     <div class="row gallery-container body-fade">
@@ -60,6 +63,23 @@
             <img class="banner" src="newimg/halffry/title.jpg" alt="Half Fry">
           </a>
           </div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 gallery-row">
+
+          <a href="recette.html" class="col-md-6 box banner-box">
+            <p class="lead-head lead img-desc-title">Une Recette Pour Bonheur</p>
+            <p class=" lead img-desc">2023 | An interactive, hand-drawn animated story about an older sister's plan to cheer up
+            her cranky baby sibling, in the format of short looping animations</p>
+            <img class="banner" src="newimg/recette/recette-1.gif" alt="Une Recette Pour Bonheur">
+          </a>
+
+          <a href="aith.html" class="col-md-6 box banner-box">
+            <p class="lead-head lead img-desc-title">Animals in the House</p>
+            <p class=" lead img-desc">2023 | Illustrations in complete color for 'Animals in the House', an anthology of
+              children's stories written by Ruskin Bond; published by Penguin Random House</p>
+            <img class="banner" src="newimg/aith/aith-1.jpg" alt="Animals in the House">
+          </a>
+      </div>
 
       <div class="col-xs-12 col-md-12 col-lg-12 gallery-row">
 
@@ -116,61 +136,68 @@
       </div>
 
       <div class="gallery-row">
+        <div class="col-xs-12 col-md-6 column">
+            <img class="gallery-image " src="newimg/doodles/truce.jpg" onclick="openModal();currentSlide(6)" alt="Truce?"></div>
+        <div class="col-xs-12 col-md-6 column">
+            <img class="gallery-image" src="newimg/doodles/zoetrope.gif" onclick="openModal();currentSlide(7)" alt="Springtime in Paris"></div>
+      </div>
+
+      <div class="gallery-row">
         <div class="col-xs-12 col-md-4 column">
-            <img class="gallery-image " src="newimg/posters/poster-3.jpg" onclick="openModal();currentSlide(6)" alt="Visual Void Design Club"></div>
+            <img class="gallery-image " src="newimg/posters/poster-3.jpg" onclick="openModal();currentSlide(8)" alt="Visual Void Design Club"></div>
         <div class="col-xs-12 col-md-4 column">
-            <img class="gallery-image" src="newimg/posters/holi-2.jpg" onclick="openModal();currentSlide(7)" alt="Holi Festival Invitation"></div>
+            <img class="gallery-image" src="newimg/posters/holi-2.jpg" onclick="openModal();currentSlide(9)" alt="Holi Festival Invitation"></div>
         <div class="col-xs-12 col-md-4 column">
-            <img class="gallery-image" src="newimg/posters/holi-3.jpg" onclick="openModal();currentSlide(8)" alt="Holi Festival Invitation"></div>
+            <img class="gallery-image" src="newimg/posters/holi-3.jpg" onclick="openModal();currentSlide(10)" alt="Holi Festival Invitation"></div>
       </div>
 
       <div class="gallery-row">
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image " src="newimg/doodles/doodles-7.jpg" onclick="openModal();currentSlide(9)" alt="Character Design - Alfonso Kaku"></div>
+            <img class="gallery-image " src="newimg/doodles/doodles-7.jpg" onclick="openModal();currentSlide(11)" alt="Character Design - Alfonso Kaku"></div>
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image" src="newimg/doodles/doodles-8.jpg" onclick="openModal();currentSlide(10)" alt="Character Design - Alfonso Kaku"></div>
+            <img class="gallery-image" src="newimg/doodles/doodles-8.jpg" onclick="openModal();currentSlide(12)" alt="Character Design - Alfonso Kaku"></div>
       </div>
 
 
       <div class="gallery-row">
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image " src="newimg/paintings/forest-1.jpg" onclick="openModal();currentSlide(11)" alt="Light and Color Study - Forest Series"></div>
+            <img class="gallery-image " src="newimg/paintings/forest-1.jpg" onclick="openModal();currentSlide(13)" alt="Light and Color Study - Forest Series"></div>
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image" src="newimg/paintings/forest-2.jpg" onclick="openModal();currentSlide(12)" alt="Light and Color Study - Forest Series"></div>
+            <img class="gallery-image" src="newimg/paintings/forest-2.jpg" onclick="openModal();currentSlide(14)" alt="Light and Color Study - Forest Series"></div>
       </div>
 
       <div class="gallery-row col-xs-12 col-md-12">
-        <img class="gallery-image" src="newimg/murals/mi-3.jpg" onclick="openModal();currentSlide(13)" alt="Mural Design - IIT Bombay's Mood Indigo 2021">
+        <img class="gallery-image" src="newimg/murals/mi-3.jpg" onclick="openModal();currentSlide(15)" alt="Mural Design - IIT Bombay's Mood Indigo 2021">
       </div>
 
       <div class="gallery-row col-xs-12 col-md-12">
-        <img class="gallery-image" src="newimg/murals/mi-1.jpg" onclick="openModal();currentSlide(14)" alt="Mural Design - IIT Bombay's Mood Indigo 2020">
+        <img class="gallery-image" src="newimg/murals/mi-1.jpg" onclick="openModal();currentSlide(16)" alt="Mural Design - IIT Bombay's Mood Indigo 2020">
       </div>
 
       <div class="gallery-row">
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image " src="newimg/doodles/doodles-12.jpg" onclick="openModal();currentSlide(15)" alt="Metro Sights"></div>
+            <img class="gallery-image " src="newimg/doodles/doodles-12.jpg" onclick="openModal();currentSlide(17)" alt="Metro Sights"></div>
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image" src="newimg/doodles/doodles-13.jpg" onclick="openModal();currentSlide(16)" alt="Classroom Doodle"></div>
+            <img class="gallery-image" src="newimg/doodles/doodles-13.jpg" onclick="openModal();currentSlide(18)" alt="Classroom Doodle"></div>
       </div>
 
       <div class="gallery-row">
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image " src="newimg/doodles/doodles-5.jpg" onclick="openModal();currentSlide(17)" alt="Sights on a Walk"></div>
+            <img class="gallery-image " src="newimg/doodles/doodles-5.jpg" onclick="openModal();currentSlide(19)" alt="Sights on a Walk"></div>
         <div class="col-xs-12 col-md-6 column">
-            <img class="gallery-image" src="newimg/doodles/doodles-6.jpg" onclick="openModal();currentSlide(18)" alt="Nap Time at Hyde Park Residency"></div>
+            <img class="gallery-image" src="newimg/doodles/doodles-6.jpg" onclick="openModal();currentSlide(20)" alt="Nap Time at Hyde Park Residency"></div>
       </div>
 
 
       <div class="gallery-row col-xs-12 col-md-12">
-        <img class="gallery-image" src="newimg/cw/cw-4.jpg" onclick="openModal();currentSlide(19)" alt="Social Media Templates for Covid Fact-Checking Site">
+        <img class="gallery-image" src="newimg/cw/cw-4.jpg" onclick="openModal();currentSlide(21)" alt="Social Media Templates for Covid Fact-Checking Site">
       </div>
 
       <div class="gallery-row">
         <div class="col-xs-12 col-md-4 column">
-            <img class="gallery-image " src="newimg/piggies/pig-4.jpg" onclick="openModal();currentSlide(20)" alt="Piggy Doodle"></div>
+            <img class="gallery-image " src="newimg/piggies/pig-4.jpg" onclick="openModal();currentSlide(22)" alt="Piggy Doodle"></div>
         <div class="col-xs-12 col-md-8 column">
-            <img class="gallery-image" src="newimg/piggies/piggies-5.gif" onclick="openModal();currentSlide(21)" alt="Piggy Looping Animation"></div>
+            <img class="gallery-image" src="newimg/piggies/piggies-5.gif" onclick="openModal();currentSlide(23)" alt="Piggy Looping Animation"></div>
       </div>
 
     </div>
@@ -1412,7 +1439,13 @@
 		</div>
 	</div> -->
 
-
+  <div class="mode-toggle" id="modeToggle">
+          <label class="switch">
+              <input type="checkbox" id="modeCheckbox">
+              <span class="slider round"></span>
+          </label>
+          <span class="mode-text"><i class="fa fa-moon-o"></i></span>
+      </div>
   <!-- The Modal/Lightbox -->
   <div id="myModal" class="modal">
     <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -1436,6 +1469,14 @@
 
       <div class="mySlides">
         <img src="newimg/doodles/doodles-11.jpg" class="modal-content">
+      </div>
+
+      <div class="mySlides">
+        <img src="newimg/doodles/truce.jpg" class="modal-content">
+      </div>
+
+      <div class="mySlides">
+        <img src="newimg/doodles/zoetrope.gif" class="modal-content">
       </div>
 
       <div class="mySlides">
@@ -1531,6 +1572,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
     <script src="js/collapse.js"></script>
+    <script src="js/darkmode.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 	<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
 	<script>
