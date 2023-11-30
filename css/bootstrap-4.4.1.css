@@ -5806,7 +5806,7 @@ img {
   .header-box {
     display: flex;
     padding-bottom: 0rem;
-    border-color: #ffffff;
+    border-color: var(--text-color);
     border-width: 2px;
     border-style: solid;
     border-top: 0px;
