@@ -256,12 +256,12 @@ sup {
 a {
   color: var(--text-color);
   font-style: normal;
-  text-decoration: underline 0.08em var(--text-color);
+  text-decoration: underline 0.08em var(--bg-color);
   transition: text-decoration-color 300ms;
 }
 
 a:hover {
-  text-decoration-color: rgba(255, 255, 255, 1);
+  text-decoration-color: var(--text-color);
 }
 
 
