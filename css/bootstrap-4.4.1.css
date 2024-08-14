@@ -256,7 +256,7 @@ sup {
 a {
   color: var(--text-color);
   font-style: normal;
-  text-decoration: underline 0.08em rgba(255, 255, 255, 0);
+  text-decoration: underline 0.08em var(--text-color);
   transition: text-decoration-color 300ms;
 }
 
