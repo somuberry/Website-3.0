@@ -5609,8 +5609,8 @@ img {
 }
 
 .banner-box:hover > .banner {
-  opacity: 30%;
-  transition-duration: 1s;
+  opacity: 20%;
+  transition-duration: 0.7s;
   webkit-easin: 0.2s;
 }
 
